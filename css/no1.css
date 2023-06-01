@@ -1,3 +1,38 @@
+.no2 {
+
+    height: 100vh;
+}
+
+.no2 .bg {
+    position: relative;
+    height: 100%;
+    background: royalblue
+}
+
+.no2 .box {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 1200px;
+    height: 150px;
+    background: sandybrown;
+
+}
+
+.no2 .inner {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: flex;
+    gap: 523px;
+    margin: 0 50px;
+}
+
+
+
+
+
 .no1 {
     padding: 60px 0;
 }
@@ -29,4 +64,23 @@
 a {
     font-size: 30px;
     color: blue;
+}
+
+
+
+.no3 {
+    padding: 200px 0;
+}
+
+.no3 .con figure {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.no3 .con figure .text {
+    text-align: center;
+    transform: translate(0, 50%);
 }
